@@ -154,7 +154,7 @@ public class NumberBase {
                 rValue =  35;
                 break;
             }
-        if(rValue > base_in)
+        if(rValue >= base_in)
             throw new IllegalArgumentException("Invalid Value: " + rValue + "in base: " + input);
         else
             return rValue;
