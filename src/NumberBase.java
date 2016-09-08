@@ -153,6 +153,8 @@ public class NumberBase {
             case 'z':
                 rValue =  35;
                 break;
+            default:
+                throw new IllegalArgumentException("Not a Valid Character: " + input);
             }
         if(rValue >= base_in)
             throw new IllegalArgumentException("Invalid Value: " + rValue + "in base: " + input);

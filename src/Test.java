@@ -6,7 +6,8 @@ public class Test {
 
 
         String output="";
-        output += NumberBase.convert("10101012",10,37);
+        //output += NumberBase.convert("10101012",2,37);
+        //output += NumberBase.convert("101010#",2,10);
         System.out.println(output);
         for(int i=2; i< 36;i++)
         {
